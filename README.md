@@ -17,5 +17,22 @@ This web application is designed for administrators to efficiently manage employ
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
+    ```bash
    git clone https://github.com/NouranAbdelgwad/Employee-Management-System
+2. Navigate to the project directory:
+    cd employee-management-system
+Install dependencies:
+composer install
+Set up your environment file:
+Copy
+cp .env.example .env
+Generate the application key:
+Copy
+php artisan key:generate
+Run migrations:
+Copy
+php artisan migrate
+Start the server:
+Copy
+php artisan serve
+Usage
