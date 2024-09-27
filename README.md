@@ -22,18 +22,19 @@ To set up the project locally, follow these steps:
 2. Navigate to the project directory:
     ```bash
     cd employee-management-system
-Install dependencies:
-composer install
-Set up your environment file:
-Copy
-cp .env.example .env
-Generate the application key:
-Copy
-php artisan key:generate
-Run migrations:
-Copy
-php artisan migrate
-Start the server:
-Copy
-php artisan serve
-Usage
+3. Install dependencies:
+    ```bash
+    composer install
+4. Set up your environment file:
+    ```bash
+    cp .env.example .env
+5. Generate the application key:
+    ```bash
+    php artisan key:generate
+5. Run migrations:
+    ```bash
+    php artisan migrate
+6. Start the server:
+    ```bash
+    php artisan serve
+
