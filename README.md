@@ -2,6 +2,7 @@
 
 ## Project video
 
+https://github.com/user-attachments/assets/b9cf9b64-5c08-42de-8ee8-535fa6c750cc
 
 ## Overview
 This web application is designed for administrators to efficiently manage employee records through a user-friendly interface. Built with Laravel, the application supports full CRUD (Create, Read, Update, Delete) operations, ensuring robust management of employee data.
