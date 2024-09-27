@@ -25,8 +25,8 @@
                         <td>
                             <form method="POST" action="/forceDelete/{{ $employee->id }}" class="d-inline">
                                 @csrf
-                                <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <button class="signup" >Permenant Delete!</button>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button class="signup" >Permenant Delete</button>
                                 </a>
                                 @method('DELETE')
                             <!-- Modal -->
@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                         </form>
-                            <a href="/restore/{{ $employee->id }}" class="btn btn-primary">Restore</a>
+                            <a href="/restore/{{ $employee->id }}"><button class="restore" >Restore</button></a>
                         </td>
                     </tr>
                 @endforeach

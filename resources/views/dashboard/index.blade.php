@@ -30,7 +30,7 @@
                                 <button type="submit" class="signup">Delete</button>
                                 @method('DELETE')
                             </form>
-                            <a href="/edit/{{$employee->id}}" class="login">Edit</a>
+                            <a href="/edit/{{$employee->id}}"><button class="login">Edit</button></a>
                         </td>
                     </tr>
                 @endforeach

@@ -1,5 +1,8 @@
 # Employee Management System
 
+## Project video
+
+
 ## Overview
 This web application is designed for administrators to efficiently manage employee records through a user-friendly interface. Built with Laravel, the application supports full CRUD (Create, Read, Update, Delete) operations, ensuring robust management of employee data.
 
