@@ -20,6 +20,7 @@ To set up the project locally, follow these steps:
     ```bash
    git clone https://github.com/NouranAbdelgwad/Employee-Management-System
 2. Navigate to the project directory:
+    ```bash
     cd employee-management-system
 Install dependencies:
 composer install
